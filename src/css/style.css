@@ -1,0 +1,587 @@
+.bg--general--1 {
+    position: absolute;
+    width: 1200px;
+    height: 657px;
+    background: radial-gradient(28.06% 54.34% at 50% 0%, rgba(255, 255, 255, 0.04) 0%, rgba(255, 255, 255, 0) 100%), rgba(19, 19, 28, 0.97);
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo--rent--2 {
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+.exit--stick--3 {
+    position: absolute;
+    left: 938px;
+    top: 41px;
+}
+
+.close--rent--4 {
+    display: flex;
+    position: absolute;
+    padding: 5px 16px;
+    right: 30px;
+    top: 30px;
+    background: rgba(79, 79, 100, 0.3);
+    border-radius: 5px;
+    font-size: 14px;
+    align-items: center;
+    font-family: Gilroy-Regular;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.close--rent--4:hover {
+    background: rgba(79, 79, 100, 0.6);
+}
+
+.grid--container--block--5 {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(3, 0.2fr);
+    gap: 20px;
+    left: calc(50% - 835px/2 + 0.5px);
+    top: 92px;
+    overflow-y: auto;
+    max-height: 535px;
+    padding-bottom: 30px;
+    transition: margin-left 0.3s ease-in-out;
+}
+
+.general--block--6 {
+    width: 265px;
+    height: 165px;
+    background: rgba(25, 25, 37, 0.5);
+    border-radius: 5px;
+}
+
+.general--image--block--7 {
+    position: absolute;
+}
+
+.bg--logo--invisible {
+    z-index: 0;
+    position: absolute;
+    right: -10px;
+    bottom: -10px;
+}
+
+.rent--car--text--8 {
+    position: absolute;
+    left: 95px;
+    top: 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    font-family: Gilroy-Regular;
+    color: #FFFFFF;
+}
+
+.rent--car--text--9 {
+    position: absolute;
+    left: 95px;
+    top: 46px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: Gilroy-Regular;
+    line-height: 100%;
+    color: #999999;
+}
+
+.general--cap--block--10 {
+    position: relative;
+    width: 265px;
+    height: 65px;
+    top: 100px;
+    background: rgba(25, 25, 37, 0.5);
+    border-radius: 0px 0px 5px 5px;
+}
+
+.car--brand--text--11 {
+    position: relative;
+    left: 10px;
+    top: 10px;
+    font-weight: 400;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.car--brand--text--12 {
+    position: absolute;
+    left: 10px;
+    top: 29px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: Gilroy-Regular;
+    line-height: 100%;
+    color: #999999;
+}
+
+.select--car--rent--13 {
+    display: flex;
+    font-family: Gilroy-Regular;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 5px 16px;
+    gap: 10px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background: rgba(79, 79, 100, 0.3);
+    border-radius: 5px;
+    font-size: 14px;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.select--car--rent--13:hover {
+    background: rgba(79, 79, 100, 0.6);
+}
+
+.general--block--15 {
+    position: absolute;
+    width: 265px;
+    height: 165px;
+    background: rgba(25, 25, 37, 0.5);
+    border-radius: 5px;
+    left: 30px;
+    top: 92px;
+}
+
+.general--cap--block--16 {
+    position: relative;
+    width: 265px;
+    height: 65px;
+    top: 100px;
+    background: rgba(25, 25, 37, 0.5);
+    border-radius: 0px 0px 5px 5px;
+}
+
+.gap--select--grid--16 {
+    margin-left: 152px;
+}
+
+.general--block--15  {
+    opacity: 0;
+    animation: fadeIn 0.3s forwards;
+}
+
+/* Анимации */
+  
+@keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+
+.select--stick--svg--17 {
+    position: absolute ;
+    left: 30px;
+    top: 276px;
+}
+
+.select--stick--svg--17 {
+    animation: selectIn 0.3s forwards;
+}
+
+@keyframes selectIn {
+    to {
+        opacity: 1;
+    }
+}
+
+.text--info--1 {
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #999999;
+    left: 0rem;
+    font-family: Gilroy-Regular;
+}
+
+.text--conf--max--speed--1 {
+    font-family: Gilroy-Regular;
+    position: absolute;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #999999;
+}
+
+.text--conf--max--speed--2 {
+    font-family: Gilroy-Regular;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.text--conf--max--speed--3 {
+    font-family: Gilroy-Regular;
+    left: 5px;
+    position: relative;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    color: #999999;
+}
+
+.text--conf--people--1 {
+    font-family: Gilroy-Regular;
+    position: absolute;
+    left: 30px;
+    top: 324px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #999999;
+}
+
+.text--conf--people--2 {
+    font-family: Gilroy-Regular;
+    position: absolute;
+    left: 272px;
+    top: 324px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.text--price--2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+    font-family: Gilroy-Regular;
+}
+
+.svg--conf--people--3 {
+    position: absolute;
+    left: 285px;
+    top: 326px;
+}
+
+.text--conf--fill--1 {
+    position: absolute;
+    font-family: Gilroy-Regular;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #999999;
+    left: 0rem;
+}
+
+.text--conf--fill--2 {
+    font-family: Gilroy-Regular;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #FFFFFF;
+}
+
+.text--conf--car--1_18 {
+    animation: textConf1 0.8s forwards;
+    animation-delay: 0.3s;
+    opacity: 0;
+    position: relative;
+    width: 260px;
+    height: 16px;
+    display: inline-block;
+    top: -250px;
+    left: -265px;
+}
+
+.text--conf--car--2_19 {
+    animation: textConf2 0.8s forwards;
+    animation-delay: 0.6s;
+    opacity: 0;
+}
+
+.text--conf--car--3_20 {
+    animation: textConf3 0.8s forwards;
+    animation-delay: 0.9s;
+    opacity: 0;
+    width: 265px;
+    height: 16px;
+    position: relative;
+    top: -215px;
+    margin-left: 30px;
+    text-align: right;
+    display: inline-block;
+}
+
+.color--block--rent--23 {
+    opacity: 0;
+    animation: colorAnim 0.8s forwards;
+    animation-delay: 1.2s;
+}
+
+.text--price--car--4_17 {
+    animation: textPrice 0.8s forwards;
+    animation-delay: 1.5s;
+    opacity: 0;
+
+    width: 265px;
+    height: 16px;
+    position: relative;
+    margin-top: 547px;
+    margin-left: 30px;
+    text-align: right;
+    display: inline-block;
+}
+
+@keyframes colorAnim {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes textConf1 {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes textConf2 {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes textConf3 {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes textPrice {
+    to {
+        opacity: 1;
+    }
+}
+
+.rent--car--button--21 {
+    display: flex;
+    font-family: Gilroy-Regular;
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 165px;
+    top: 582px;
+    background: rgba(79, 79, 100, 0.3);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.rent--car--button--22 {
+    display: flex;
+    font-family: Gilroy-Regular;
+    position: absolute;
+    width: 130px;
+    height: 45px;
+    left: 30px;
+    top: 582px;
+    background: rgba(79, 79, 100, 0.3);
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    align-items: center;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    transition: all 0.3s;
+}
+
+.rent--car--button--21 {
+    animation: buttonAnim 1s forwards;
+    opacity: 0;
+}
+
+.rent--car--button--22 {
+    animation: buttonAnim1 1s forwards;
+    opacity: 0;
+}
+
+@keyframes buttonAnim {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes buttonAnim1 {
+    to {
+        opacity: 1;
+    }
+}
+  
+.rent--car--button--21::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background: rgba(79, 79, 100, 0.6);
+    transition: all 0.3s;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.rent--car--button--22::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0%;
+    height: 100%;
+    background: rgba(79, 79, 100, 0.6);
+    transition: all 0.3s;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.rent--car--button--21:hover::before {
+    width: 100%;
+}
+
+.rent--car--button--22:hover::before {
+    width: 100%;
+}
+
+.color--grid--rent--22 {
+    position: absolute;
+    left: 78px;
+    top: 407px;
+    display: grid;
+    grid-template-columns: repeat(6, 0fr);
+    gap: 10px;
+}
+
+.color--block--rent--23 {
+    width: 20px;
+    height: 20px;
+    background: linear-gradient(225deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0) 100%);
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+.color--block--rent--23 {
+    position: relative;
+  }
+  
+.color--block--rent--23::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 2.5px;
+    width: 15px;
+    height: 2px;
+    background-color: #FFFFFF;
+    opacity: 0;
+    transform: scaleX(0);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    border-radius: 5px;
+  }
+  
+.color--block--rent--23:hover::after {
+    opacity: 1;
+    transform: scaleX(1);
+}
+
+.color--block--rent--23.selected::after {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.stick--select--24 {
+    position: absolute;
+    width: 535px;
+    height: 2px;
+    left: 47.5px;
+    top: 358.5px;
+    background: rgba(25, 25, 37, 0.5);
+    transform: rotate(90deg);
+    animation: stick1 1s forwards;
+    opacity: 0;
+}
+
+.stick--select--25 {
+    position: absolute;
+    width: 265px;
+    height: 2px;
+    left: 30px;
+    top: 276px;
+    background: rgba(25, 25, 37, 0.5);
+    transform: rotate(180deg);
+    animation: stick2 1s forwards;
+    opacity: 0;
+}
+
+.stick--select--26 {
+    position: absolute;
+    width: 265px;
+    height: 2px;
+    left: 30px;
+    top: 386px;
+    background: rgba(25, 25, 37, 0.5);
+    transform: rotate(180deg);
+    animation: stick3 1s forwards;
+    opacity: 0;
+}
+
+@keyframes stick1 {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes stick2 {
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes stick3 {
+    to {
+        opacity: 1;
+    }
+}
+
+.text--conf--car--1_18_2 {
+    position: relative;
+    text-align: right;
+}
