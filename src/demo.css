@@ -1,1 +1,8 @@
-html,body,#root{min-height:100%;margin:0}body{background:#10121b;color:#fff}.demo-toolbar{position:fixed;bottom:12px;right:12px;z-index:100000;display:flex;align-items:center;gap:12px;max-width:calc(100vw - 48px);padding:10px 14px;border:1px solid #ffffff25;border-radius:12px;background:#121622ed;color:#e6e9f1;font:12px/1.4 system-ui,sans-serif;box-shadow:0 8px 32px #0005}.demo-toolbar button{cursor:pointer;border:0;border-radius:6px;padding:7px 10px;background:#c0fa68;color:#16210a;white-space:nowrap}.demo-toolbar span{min-width:0}
+html,body,#root{width:100%;height:100%;margin:0;overflow:hidden}
+body{background:#10121b;color:#fff}
+.desktop-viewport{position:fixed;inset:0;overflow:hidden}
+.desktop-stage{position:absolute;left:0;top:0;transform-origin:0 0}
+.desktop-stage>.App{width:100%;height:100%}
+.demo-reset{position:fixed;right:10px;top:10px;z-index:100000;width:28px;height:28px;padding:0;border:1px solid #ffffff24;border-radius:50%;background:#121622b3;color:#c4cbd7;cursor:pointer;font:19px/1 system-ui;opacity:.45}
+.demo-reset:hover,.demo-reset:focus-visible{opacity:1;background:#202939}
+.demo-feedback{position:fixed;top:12px;left:50%;transform:translateX(-50%);z-index:100000;max-width:70vw;padding:10px 16px;border-radius:8px;background:#121622ed;color:#e6e9f1;font:13px/1.4 system-ui;pointer-events:none}
